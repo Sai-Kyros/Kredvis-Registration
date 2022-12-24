@@ -28,7 +28,7 @@ namespace KredVis.Registration.Services
 
                     using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                     {
-                        smtp.Credentials = new NetworkCredential("srisaisarath@kyrostechnologies.com", "Sai@1896");
+                        smtp.Credentials = new NetworkCredential("srisaisarath@kyrostechnologies.com", "S@$i@2512");
                         smtp.EnableSsl = true;
                         smtp.UseDefaultCredentials = false;
                         await smtp.SendMailAsync(mail);
